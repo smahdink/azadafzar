@@ -1,4 +1,4 @@
-baseURL = "azadafzar.vercel.app"
+baseURL = "/"
 languageCode = "fa-ir"
 title = "آزادافزار"
 theme = "ananke"
