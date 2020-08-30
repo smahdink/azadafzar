@@ -12,10 +12,14 @@ paginate = "10" # Number of posts per page
     authorbox = true
     post_meta = ["author", "date", "categories"] # Order of post meta information
     googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+    pager = "true"
     
+[Params.logo]
+    title = "آزادافزار"
+
 [Params.style.vars]
-    #highlightColor = "#e22d30" # Override highlight color
-    highlightColor = "blue"
+    # highlightColor = "#e22d30" # Override highlight color
+    highlightColor = "#0981c6"
     
 [Params.sidebar]
     home = "right"
