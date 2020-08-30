@@ -32,7 +32,7 @@ paginate = "10" # Number of posts per page
 [menu]
     [[menu.main]]
         identifier = "Home"
-        name = "Home"
+        name = "خانه"
         pre = "<i class='fa fa-heart'></i>"
         url = "/"
         weight = 0
