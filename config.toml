@@ -1,4 +1,4 @@
-baseURL = "azadafzar.vercel.app"
+baseURL = "https://azadafzar.vercel.app"
 languageCode = "fa-ir"
 title = "آزادافزار-همه چیز درباره نرم‌افزار‌های آزاد"
 theme = "mainroad"
