@@ -24,7 +24,7 @@ menu: main
  
 لوگوی پروژه گنو
 
-<img src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="gnu-logo">
+<img class="post-image" src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="gnu-logo">
  
 در پایان هم از اینکه صبر و حوصله به خرج دادید و متن بنده رو خوندید ازتون تشکر می‌کنم.
 منتظر نظراتتون هستم.

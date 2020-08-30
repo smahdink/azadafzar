@@ -961,6 +961,11 @@ img {
 	height: auto;
 	vertical-align: bottom;
 }
+.post-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 iframe,
 embed,
