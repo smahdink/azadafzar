@@ -1,4 +1,14 @@
 baseURL = "/"
 languageCode = "fa-ir"
 title = "آزادافزار"
-theme = "ananke"
+theme = "mainroad"
+paginate = "10" # Number of posts per page
+
+[Author]
+    name = "سید مهدی نقوی"
+
+[Params]
+    description = "درباره نرم‌افزار‌های آزاد"
+    
+
+
