@@ -12,7 +12,8 @@ paginate = "10" # Number of posts per page
     authorbox = true
     post_meta = ["author", "date", "categories"] # Order of post meta information
     googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
-    pager = "true"
+    pager = true
+    readmore = true
     
 [Params.logo]
     title = "آزادافزار"
