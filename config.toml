@@ -29,4 +29,10 @@ paginate = "10" # Number of posts per page
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget
 
-
+[menu]
+    [[menu.main]]
+        identifier = "Home"
+        name = "Home"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/"
+        weight = 0
