@@ -24,6 +24,8 @@ paginate = "10" # Number of posts per page
     
 [Params.sidebar]
     home = "right"
+    list = "right"   # Configure layout for list pages
+    single = "right" # Configure layout for single pages
     widgets = ["recent", "categories", "taglist"]
 
 [Params.widgets]
