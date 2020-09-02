@@ -1,6 +1,6 @@
 ---
 title: 'My First Post'
-date: 1399-06-9
+date: 2020-08-07
 draft: false
 ---
 
