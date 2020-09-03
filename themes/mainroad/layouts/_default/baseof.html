@@ -78,7 +78,6 @@
 		{{ partial "footer" . }}
 	</div>
 <script async defer src="{{ "js/menu.js" | relURL }}"></script>
-<script async defer src="{{ "js/custom.js" | relURL }}"></script>
 {{ range .Site.Params.customJS -}}
 <script src="{{ . | relURL }}"></script>
 {{- end }}
