@@ -1,8 +1,9 @@
 baseURL = "https://azadafzar.vercel.app"
-languageCode = "fa-ir"
 title = "آزادافزار-همه چیز درباره نرم‌افزار‌های آزاد"
+languageCode = "fa"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
+enableRobotsTXT = true
 
 [Author]
     name = "سید مهدی نقوی"
@@ -15,6 +16,9 @@ paginate = "10" # Number of posts per page
     pager = true
     readmore = true
     copyright = "کپی با ذکر منبع مجاز است"
+    customCSS = ["css/custom.css"] # Include custom CSS files
+    customJS = ["js/custom.js"] # Include custom JS files
+    defaultContentLanguage = "fa"
     
 [Params.logo]
     title = "آزادافزار"

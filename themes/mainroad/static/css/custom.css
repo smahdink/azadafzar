@@ -1,0 +1,9 @@
+.post__content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.post {
+    margin-left: 15px;
+    margin-left: 0.7rem;
+}

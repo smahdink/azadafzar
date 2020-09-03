@@ -869,6 +869,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	border-bottom: 1px solid #ebebeb;
+	padding-left: 10px;
+	padding-left: 0.625rem;
 }
 
 .list__header {
