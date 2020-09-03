@@ -1,7 +1,7 @@
 ---
 title: 'نرم‌افزار آزاد چیست؟'
 draft: false
-date: 2020-08-08
+date: 2020-09-03
 menu: main
 ---
 
