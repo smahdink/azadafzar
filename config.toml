@@ -3,7 +3,6 @@ title = "آزادافزار-همه چیز درباره نرم‌افزار‌ه�
 languageCode = "fa"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
-enableRobotsTXT = true
 
 [Author]
     name = "سید مهدی نقوی"
