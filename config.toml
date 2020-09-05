@@ -44,7 +44,7 @@ paginate = "10" # Number of posts per page
         name = "خانه"
         pre = "<i class='fa fa-heart'></i>"
         url = "/"
-        weight = 0
+        weight = -999
 
 [markup]
   [markup.goldmark]
