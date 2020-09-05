@@ -11,7 +11,7 @@ paginate = "10" # Number of posts per page
     description = "لینوکس، نرم‌افزار‌های آزاد. معرفی، آموزش، اخبار"
     authorbox = true
     post_meta = ["author", "date", "categories"] # Order of post meta information
-    googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+    #googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
     pager = true
     readmore = true
     copyright = "کپی با ذکر منبع مجاز است"
@@ -25,6 +25,7 @@ paginate = "10" # Number of posts per page
 [Params.style.vars]
     # highlightColor = "#e22d30" # Override highlight color
     highlightColor = "#0981c6"
+    fontFamilyPrimary = "Vazir, tahoma"
     
 [Params.sidebar]
     home = "right"
