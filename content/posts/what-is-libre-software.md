@@ -2,7 +2,9 @@
 title: 'نرم‌افزار آزاد چیست؟'
 draft: false
 date: 2020-09-03
-menu: main
+menu:
+  main:
+    weight: 1
 ---
 
 بسم رب الشهدا
