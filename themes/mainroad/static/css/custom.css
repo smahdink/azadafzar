@@ -2,3 +2,27 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.gravatar{
+    border-radius: 100%;
+    width: 50px;
+    float: right;
+    height: auto;
+}
+
+.comment_author{
+    font-size: 12px;
+}
+
+blockquote{
+    height: auto;
+}
+
+.comment_body{
+    float: none;
+}
+
+.comment{
+    width: auto;
+    margin-right: 60px;
+}

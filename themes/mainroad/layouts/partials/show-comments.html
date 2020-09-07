@@ -7,11 +7,13 @@
     {{ $.Scratch.Add "hasComments" 1 }}
     {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
 <blockquote>
-<p>{{ .body | markdownify }}</p>
-<cite>
-  <img src="https://www.gravatar.com/avatar/{{ .email }}?s=100">
-  <strong>{{ .name }}</strong><br><time>{{ dateFormat "2006-02-01" .date }}</time>
-</cite>
+    <img class="gravatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=100">
+    <div class="comment">
+        <div class="comment_author">
+            <strong>{{ .name }}</strong> {{ partial "svg/time.svg" (dict "class" "meta__icon") -}} <time class="comment_time" > {{ dateFormat "2006-02-01" .date }}</time>
+        </div>
+        <div class="comment_body"><p>{{ .body | markdownify }}</p></div>
+    </div>
 </blockquote>
     {{ end }}       
   {{ end }}
