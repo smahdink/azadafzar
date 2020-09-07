@@ -52,7 +52,7 @@ paginate = "10" # Number of posts per page
       unsafe = true
 
 [Params.staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
+  endpoint = "https://staticman3.herokuapp.com/v3/entry/gitlab/"
   username = "smahdink"
   repository = "azadafzar"
   branch = "master"
