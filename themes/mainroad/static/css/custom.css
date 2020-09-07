@@ -26,3 +26,17 @@ blockquote{
     width: auto;
     margin-right: 60px;
 }
+
+input, textarea, select, button{
+    width: 100%;
+}
+
+textarea {
+    display : block;
+  
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 100%;
+  
+    overflow: auto;
+  }
