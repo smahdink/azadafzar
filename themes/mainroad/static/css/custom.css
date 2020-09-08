@@ -29,6 +29,7 @@ blockquote{
 
 input, textarea, select, button{
     width: 100%;
+    margin-bottom: .75rem;
 }
 
 textarea {
