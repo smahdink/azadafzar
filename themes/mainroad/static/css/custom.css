@@ -40,4 +40,24 @@ textarea {
     width   : 100%;
   
     overflow: auto;
-  }
+}
+
+.wrapper ::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+.wrapper ::selection {
+    background-color: black;
+    color: white;
+}
+
+.logo ::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+.logo ::selection {
+    background-color: black;
+    color: white;
+}
