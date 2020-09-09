@@ -5,6 +5,7 @@ date: 2020-09-03
 menu:
   main:
     weight: 1
+comments: true
 ---
 
 بسم رب الشهدا
