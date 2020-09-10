@@ -624,6 +624,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .meta__icon {
 	margin-right: 5px;
+	margin-left: 5px;
 	vertical-align: middle;
 	fill: #c4c4c4;
 }
