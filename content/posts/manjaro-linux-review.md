@@ -1,5 +1,5 @@
 ---
-title: "Manjaro-Linux-Review"
+title: "بررسی و معرفی مانجارو لینوکس"
 description: ""
 date: "2020-09-10T17:48:10+04:30"
 categories:
