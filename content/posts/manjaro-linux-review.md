@@ -18,4 +18,4 @@ comments: true
 از مشکلات اندک مانجارو هم می‌توان به وجود کاستی‌های در طراحی رابط کاربری گرافیکی pamac و معدود به‌روزرسانی‌های مشکل زای آن اشاره کرد.
 مانجارو یک انتخاب ایده‌آل برای کسانی است که همیشه به دنبال استفاده از جدید ترین نسخهٔ نرم‌افزار‌ها هستند و برای سایر کاربران دسکتاپ هم انتخابی مناسب است.
 
-<img src="/img/manjaro-linux-review.png" alt="manjaro linux desktop">
+<img src="/img/manjaro-linux-review.png" alt="manjaro linux desktop"><br>
