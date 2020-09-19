@@ -1,5 +1,5 @@
 baseURL = "https://azadafzar.vercel.app"
-title = "آزادافزار-همه چیز درباره نرم‌افزار‌های آزاد"
+title = "آزادیکس-همه چیز درباره نرم‌افزار‌های آزاد"
 languageCode = "fa"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
@@ -20,7 +20,7 @@ paginate = "10" # Number of posts per page
     defaultContentLanguage = "fa"
     
 [Params.logo]
-    title = "آزادافزار"
+    title = "آزادیکس"
 
 [Params.style.vars]
     # highlightColor = "#e22d30" # Override highlight color
