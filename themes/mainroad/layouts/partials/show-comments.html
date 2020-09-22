@@ -7,7 +7,7 @@
     {{ $.Scratch.Add "hasComments" 1 }}
     {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
 <blockquote>
-    <img class="gravatar" src="https://ui-avatars.com/api/?length=1&name={{ .name }}">
+    <img class="avatar" src="https://ui-avatars.com/api/?length=1&name={{ .name }}">
     <div class="comment">
         <div class="comment_author">
             <strong>{{ .name }}</strong> {{ partial "svg/time.svg" (dict "class" "meta__icon") -}} <time class="comment_time" > {{ dateFormat "2006-02-01" .date }}</time>
