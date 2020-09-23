@@ -24,10 +24,8 @@ var tags = document.querySelectorAll("time");
 if (tags.length != 0)
 {
 	tags.forEach(function (tag) {
-		console.log(tag.innerText);
 		var jDate = moment(tag.innerText, 'YYYY-MM-DD').locale('fa').format('YYYY-MM-DD');
 		jDate = jDate.split("-");
 		tag.innerText = jDateToName(jDate);
 	})
 }
-
