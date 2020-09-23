@@ -13,7 +13,6 @@ paginate = "10" # Number of posts per page
     post_meta = ["author", "date", "categories"] # Order of post meta information
     pager = true
     readmore = true
-    toc = true
     copyright = "کپی با ذکر منبع مجاز است"
     customCSS = ["css/custom.css"] # Include custom CSS files
     customJS = ["js/custom.js"] # Include custom JS files
