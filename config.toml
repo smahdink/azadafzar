@@ -1,5 +1,5 @@
 baseURL = "https://azadafzar.vercel.app"
-title = "آزادیکس-همه چیز درباره نرم‌افزار‌های آزاد"
+title = "لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد"
 languageCode = "fa"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
