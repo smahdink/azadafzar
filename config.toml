@@ -19,7 +19,7 @@ paginate = "10" # Number of posts per page
     defaultContentLanguage = "fa"
     
 [Params.logo]
-    title = "آزادیکس"
+    title = "لینوکس‌شهر"
 
 [Params.style.vars]
     # highlightColor = "#e22d30" # Override highlight color
