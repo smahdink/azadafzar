@@ -21,9 +21,23 @@
     align-items: center;
     justify-content: center;
   }
+  #right-div {
+    width: 50%;
+    height:100%;
+    position: absolute;
+    right:0;
+  }
+  #left-div {
+    width: 50%;
+    height:100%;
+    position: absolute;
+    left:0;
+  }
   </style>
 </head>
 <body>
+  <div id="left-div"></div>
+  <div id="right-div"></div>
 <canvas width="400" height="500" id="game"></canvas>
 <script>
 const canvas = document.getElementById('game');
@@ -242,6 +256,30 @@ document.addEventListener('keyup', function(e) {
   if (e.which === 37 || e.which === 39) {
     paddle.dx = 0;
   }
+});
+
+document.getElementById("left-div").addEventListener("touchstart", function(e) {
+  e.preventDefault();
+  paddle.dx = -3;
+});
+
+document.getElementById("left-div").addEventListener("touchend", function(e) {
+  e.preventDefault();
+  paddle.dx = 0;
+});
+
+document.getElementById("right-div").addEventListener("touchstart", function(e) {
+  e.preventDefault();
+  paddle.dx = +3;
+  if (ball.dx === 0 && ball.dy === 0) {
+    ball.dx = ball.speed;
+    ball.dy = ball.speed;
+  }
+});
+
+document.getElementById("right-div").addEventListener("touchend", function(e) {
+  e.preventDefault();
+  paddle.dx = 0;
 });
 
 // start the game
