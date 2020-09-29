@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "azadafzar.vercel.app"]
+  allowedOrigins: ["localhost", "linuxshahr.ir"]
 
   # (*) REQUIRED
   #
@@ -37,7 +37,7 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "Azadafzar"
+  name: "Linuxshahr"
 
   # (*) REQUIRED
   #
