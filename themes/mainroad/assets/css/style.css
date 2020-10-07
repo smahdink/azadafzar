@@ -1305,8 +1305,8 @@ textarea {
 	}
 
 	.list__title {
-		font-size: 16px;
-		font-size: 1rem;
+		font-size: 20px;
+		font-size: 1.25rem;
 	}
 
 	.list__lead {
