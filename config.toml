@@ -5,7 +5,7 @@ theme = "mainroad"
 paginate = "10" # Number of posts per page
 
 [Author]
-    name = "یک نفر دغدغه‌مند"
+    name = "مهدی نقوی"
 
 [Params]
     description = "لینوکس، نرم‌افزار‌های آزاد. معرفی، آموزش، اخبار"
