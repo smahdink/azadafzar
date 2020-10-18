@@ -23,8 +23,8 @@ paginate = "10" # Number of posts per page
 
 [Params.style.vars]
     # highlightColor = "#e22d30" # Override highlight color
-    # highlightColor = "cornflowerblue"
-    highlightColor = "#ff8000"
+    # highlightColor = "#ff8000"
+    highlightColor = "cornflowerblue"
     fontFamilyPrimary = "Vazir, tahoma"
     
 [Params.sidebar]
