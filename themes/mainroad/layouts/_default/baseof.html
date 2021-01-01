@@ -12,6 +12,14 @@
 	<script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
 	<!-- end of moment -->
 
+	<!--getinsights analytics-->
+	<script src="https://getinsights.io/js/insights.js"></script>
+	<script>
+	insights.init('NF4hZHzWwGDfZVxU');
+	insights.trackPages();
+	</script>
+	<!--end-->
+
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 	{{- if .Site.Params.opengraph }}
