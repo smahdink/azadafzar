@@ -35,4 +35,3 @@ description: "جنبش آزادی نرم‌افزار(FOSSM) برای اولین
 لوگوی پروژه گنو
 
 <img class="post-image" src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="gnu-logo">
-![gnu-logo](https://www.gnu.org/graphics/heckert_gnu.transp.small.png "gnu-logo")
