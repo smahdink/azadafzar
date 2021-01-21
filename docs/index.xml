@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</title>
+    <link>https://linuxshahr.ir/</link>
+    <description>Recent content on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    <lastBuildDate>Fri, 08 Jan 2021 17:18:42 +0330</lastBuildDate><atom:link href="https://linuxshahr.ir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>معرفی افزونه‌های کاربردی GNOME</title>
+      <link>https://linuxshahr.ir/posts/28-dec-20-best-gnome-extensions/body/</link>
+      <pubDate>Fri, 08 Jan 2021 17:18:42 +0330</pubDate>
+      
+      <guid>https://linuxshahr.ir/posts/28-dec-20-best-gnome-extensions/body/</guid>
+      <description>&lt;p&gt;یکی از امکانات کاربردی میزکار &lt;strong&gt;گنوم&lt;/strong&gt; (&lt;strong&gt;GNOME&lt;/strong&gt;) افزونه‌های آن هستند. به کمک این افزونه‌ها امکانات زیادی را به این میزکار محبوب اضافه کرد. در این پست به آموزش نصب افزونه‌ها و معرفی چند افزونه بسیار کاربردی خواهیم پرداخت.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>بررسی و معرفی مانجارو لینوکس</title>
+      <link>https://linuxshahr.ir/posts/manjaro-linux-review/</link>
+      <pubDate>Thu, 10 Sep 2020 17:48:10 +0430</pubDate>
+      
+      <guid>https://linuxshahr.ir/posts/manjaro-linux-review/</guid>
+      <description>مانجارو لینوکس یک توزیع از توزیع‌های لینوکس است که بر پایه Arch ساخته شده است. شاید با شنیدن نام Arch فکر کنید که با یک توزیع با نصب و مدیریت دشوار مثل Arch مواجهید. اما اینطور نیست؛ مانجارو توزیعی است که تلاش می‌کند مزایای Arch را بدون سختی‌هایش در خود بگنجاند و این همان نکته‌ای است که کاربران بسیاری را ترغیب به استفاده از این توزیع می‌کند.
+مانجارو همانند آرچ یک توزیع rolling release است به این معنی که نسخه‌های جدید نرم‌افزار‌ها، درایور‌ها و کرنل‌ها با فاصله اندکی از انتشار در دسترس همه قرار می‌گیرند.</description>
+    </item>
+    
+    <item>
+      <title>نرم‌افزار آزاد چیست؟</title>
+      <link>https://linuxshahr.ir/posts/what-is-libre-software/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxshahr.ir/posts/what-is-libre-software/</guid>
+      <description>بسم رب الشهدا
+جنبش آزادی نرم‌افزار(FOSSM) برای اولین بار توسط آقای ریچارد استالمن(Richard Stallman) در سال ۱۹۸۳ با راه اندازی پروژهٔ گنو(GNU) آغاز شد.
+فلسفهٔ اصلی این جنبش این است که استفاده از رایانه‌ها نباید مانع از همکاری مردم با یکدیگر شود. این جنبش بر این باور است که نرم‌افزار‌های غیر‌آزاد (proprietary یا nonfree) کاربران را از یکدیگر جدا می‌کنند و آن هارا بدون کمک رها می‌کنند.
+جدا کردن به این طریق اتفاق می‌افتد که کاربران نمی‌توانند نرم‌افزاری را که استفاده می‌کنند با دیگران به اشتراک بگذارند و هر کاربر مجبور است نرم‌افزار دلخواه خود را مستقیما از تولید کننده آن دریافت کند.</description>
+    </item>
+    
+    <item>
+      <title>درباره</title>
+      <link>https://linuxshahr.ir/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxshahr.ir/about/</guid>
+      <description>این سایت در راستای معرفی و ترویج نرم‌افزار‌های آزاد از جمله لینوکس و همچنین ارائه آموزش‌ها و پوشش برخی اخبار مهم در رابطه با نرم‌افزار‌های آزاد فعالیت خواهد کرد.
+امید است با ترویج فرهنگ و استفاده از این نرم‌افزار‌ها گامی در جهت استقلال و آزادی هرچه بیش‌تر کشور برداشته شود.</description>
+    </item>
+    
+  </channel>
+</rss>

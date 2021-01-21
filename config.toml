@@ -3,6 +3,7 @@ title = "لینوکس‌شهر-همه چیز درباره نرم‌افزار‌
 languageCode = "fa"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
+publishDir = "docs"
 
 [Author]
     name = "مهدی نقوی"

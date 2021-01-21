@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html dir="rtl" class="no-js" lang="fa"></html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>بررسی و معرفی مانجارو لینوکس - لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</title>
+	
+
+	 
+	<script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
+	
+
+	
+	<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101295767);</script>
+	<script async src="//static.getclicky.com/js"></script>
+	
+
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="مانجارو لینوکس یک توزیع از توزیع‌های لینوکس است که بر پایه Arch ساخته شده. شاید با شنیدن نام Arch فکر کنید که با یک توزیع با نصب و مدیریت دشوار مثل Arch مواجهید. اما اینطور نیست؛ مانجارو توزیعی است که تلاش می‌کند مزایای Arch را بدون سختی‌هایش در خود بگنجاند.">
+	
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+	
+	<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.2.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="لینوکس‌شهر" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">لینوکس‌شهر</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">خانه</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/what-is-libre-software/">
+				
+				<span class="menu__text">نرم‌افزار آزاد چیست؟</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">درباره</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">بررسی و معرفی مانجارو لینوکس</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">مهدی نقوی</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-10T17:48:10&#43;04:30">
+		2020-09-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/linux/" rel="category">Linux</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p><strong>مانجارو لینوکس</strong> یک توزیع از توزیع‌های لینوکس است که بر پایه <strong>Arch</strong> ساخته شده است. شاید با شنیدن نام Arch فکر کنید که با یک توزیع با نصب و مدیریت دشوار مثل Arch مواجهید. اما اینطور نیست؛ مانجارو توزیعی است که تلاش می‌کند مزایای Arch را بدون سختی‌هایش در خود بگنجاند و این همان نکته‌ای است که کاربران بسیاری را ترغیب به استفاده از این توزیع می‌کند.</p>
+<p>مانجارو همانند <strong>آرچ</strong> یک توزیع <strong>rolling release</strong> است به این معنی که نسخه‌های جدید نرم‌افزار‌ها، درایور‌ها و کرنل‌ها با فاصله اندکی از انتشار در دسترس همه قرار می‌گیرند. اما مانجارو بر خلاف آرچ به‌روزرسانی‌ها را کمی دیر‌تر و با بررسی بیش‌تر ارائه می‌دهد؛ به همین دلیل نسبت به آرچ تا حدودی <strong>پایدار‌تر</strong> است.</p>
+<p>مانجارو در چهار نسخهٔ رسمی که سه مورد از آنها با سه محیط کار محبوب XFCE و گنوم و KDE هستند عرضه می‌شود و چهارمین نسخه Architect Edition است. نصب مانجارو بر خلاف آرچ بسیار آسان‌تر است و همانند توزیع‌هایی مثل <strong>UBUNTU</strong> یک نصب کنندهٔ گرافیکی خوب دارد.</p>
+<p>به‌روزرسانی‌های نرم‌افزار‌ها در شاخه stable به صورت هفتگی منتشر می‌شوند اما نسخه‌های جدید برای تضمین پایداری بیش‌تر کمی دیر تر از آرچ منتشر می‌شوند. مخازن مانجارو هم مانند مخازن آرچ بسیار غنی هستند و معمولاً اکثر نرم‌افزار‌های موردنیاز در آن‌ها پیدا می‌شود. نکته جذاب دیگری هم که وجود دارد دسترسی به AUR است. <strong>AUR</strong> یا مخازن کاربران آرچ محلی است که نرم‌افزار‌ها‌(build file آن‌ها) توسط کاربران در آن بارگذاری می‌شوند. نرم‌افزار‌هایی هم که در مخازن رسمی وجود نداشته باشند معمولاً از این طریق در دسترس اند. همچنین امکان نصب نرم‌افزار‌ها از طریق AUR و Snap و Flatpak ها از طریق package manager مانجارو که pamac نامیده می‌شود وجود دارد.</p>
+<p>جابجایی بسیار آسان بین <strong>کرنل‌ها</strong> و نصب آن‌ها با یک کلیک، نصب آسان درایور‌ها، پشتیبانی سریع از سخت‌افزار‌های جدید و جامعهٔ کاربری گسترده از دیگر مزیت‌‌های مانجارو است.
+البته ناگفته نماند که مانجارو در زمینه گیمینگ هم از سایر توزیع‌ها تا حدودی جلوتر است و عملکرد بالاتری را در بازی‌های مختلف ارائه می‌دهد.</p>
+<p>از مشکلات اندک مانجارو هم می‌توان به وجود کاستی‌هایی در طراحی رابط کاربری گرافیکی pamac و معدود به‌روزرسانی‌های مشکل زای آن اشاره کرد.</p>
+<p>مانجارو یک انتخاب ایده‌آل برای کسانی است که به دنبال استفاده از جدید ترین نسخهٔ نرم‌افزار‌ها در کنار پایداری کلی سیستم عامل هستند و برای سایر کاربران دسکتاپ هم انتخابی مناسب است.</p>
+<p><img src="/img/manjaro-linux-review.png" alt="manjaro linux desktop"><br></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/linux/" rel="tag">Linux</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/review/" rel="tag">Review</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<div class="authorbox__header">
+		<span class="authorbox__name">About مهدی نقوی</span>
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/what-is-libre-software/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">نرم‌افزار آزاد چیست؟</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/28-dec-20-best-gnome-extensions/body/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">معرفی افزونه‌های کاربردی GNOME</p>
+		</a>
+	</div>
+</nav>
+	
+<p>دیدگاه خود را بیان کنید</p>
+<form method="POST" action="https://staticman3.herokuapp.com/v3/entry/gitlab/smahdink/azadafzar/master/comments">
+    <input type="hidden" name="options[redirect]" value="https://linuxshahr.ir/posts/manjaro-linux-review/#comment-submitted">
+    <input type="hidden" name="options[entryId]" value="d9dac8d551ef2936cfc1a09686b8ad96">
+    <input name="fields[name]" type="text" placeholder="نام شما" required>
+    <textarea name="fields[body]" placeholder="نظر شما؛ (markdown) پشتیبانی می‌شود" rows="10"></textarea>
+    <input type="submit" value="ارسال نظر">
+  </form>
+
+	
+
+
+
+
+  
+
+
+
+  <p>اولین نفری باشید که نظر می‌دهید.</p>
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://duckduckgo.com/">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sites" value="https://linuxshahr.ir"/>
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/28-dec-20-best-gnome-extensions/body/">معرفی افزونه‌های کاربردی GNOME</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/manjaro-linux-review/">بررسی و معرفی مانجارو لینوکس</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/what-is-libre-software/">نرم‌افزار آزاد چیست؟</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/linux/">Linux</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%81%D8%B2%D8%A7%D8%B1/">معرفی نرم‌افزار</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/gnome/" title="GNOME">GNOME</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/linux/" title="Linux">Linux</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/review/" title="Review">Review</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/" title="لینوکس">لینوکس</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%81%D8%B2%D8%A7%D8%B1/" title="معرفی نرم‌افزار">معرفی نرم‌افزار</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%DA%AF%D9%86%D9%88%D9%85/" title="گنوم">گنوم</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 کپی با ذکر منبع مجاز است.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script></body>
+</html>
