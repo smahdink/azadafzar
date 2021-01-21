@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</title>
+    <link>https://linuxshahr.ir/categories/</link>
+    <description>Recent content in Categories on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    <lastBuildDate>Fri, 08 Jan 2021 17:18:42 +0330</lastBuildDate><atom:link href="https://linuxshahr.ir/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>معرفی نرم‌افزار</title>
+      <link>https://linuxshahr.ir/categories/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%81%D8%B2%D8%A7%D8%B1/</link>
+      <pubDate>Fri, 08 Jan 2021 17:18:42 +0330</pubDate>
+      
+      <guid>https://linuxshahr.ir/categories/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%B1%D9%85%D8%A7%D9%81%D8%B2%D8%A7%D8%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://linuxshahr.ir/categories/linux/</link>
+      <pubDate>Thu, 10 Sep 2020 17:48:10 +0430</pubDate>
+      
+      <guid>https://linuxshahr.ir/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

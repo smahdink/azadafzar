@@ -1,0 +1,67 @@
+.post__content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.post__content ul {
+    padding-right: 40px;
+}
+
+.comment_avatar{
+    border-radius: 100%;
+    width: 50px;
+    float: right;
+    height: auto;
+}
+
+.comment_author{
+    font-size: 12px;
+}
+
+blockquote{
+    height: auto;
+}
+
+.comment_body{
+    float: none;
+}
+
+.comment{
+    width: auto;
+    margin-right: 60px;
+}
+
+input, textarea, select, button{
+    width: 100%;
+    margin-bottom: .75rem;
+}
+
+textarea {
+    display : block;
+  
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 100%;
+  
+    overflow: auto;
+}
+
+.wrapper ::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+.wrapper ::selection {
+    background-color: black;
+    color: white;
+}
+
+.logo ::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+.logo ::selection {
+    background-color: black;
+    color: white;
+}
