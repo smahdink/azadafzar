@@ -52,7 +52,7 @@ body {
 	margin: 0;
 	font-family: {{ $fontFamilyPrimary }};
 	font-size: 15px;
-	font-size: .95rem;
+	font-size: 1em;
 	line-height: 1.6;
 	word-wrap: break-word;
 	background: #f7f7f7;
