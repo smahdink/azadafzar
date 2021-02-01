@@ -231,6 +231,12 @@ function loop() {
   context.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
 }
 
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
 // listen to keyboard events to move the paddle
 document.addEventListener('keydown', function(e) {
   // left arrow key
@@ -246,7 +252,8 @@ document.addEventListener('keydown', function(e) {
   // if they ball is not moving, we can launch the ball using the space key. ball
   // will move towards the bottom right to start
   if (ball.dx === 0 && ball.dy === 0 && e.which === 32) {
-    ball.dx = ball.speed;
+    //ball.dx = ball.speed;
+    ball.dx = getRandomInt(-2,3)
     ball.dy = ball.speed;
   }
 });
@@ -272,7 +279,8 @@ document.getElementById("right-div").addEventListener("touchstart", function(e) 
   e.preventDefault();
   paddle.dx = +3;
   if (ball.dx === 0 && ball.dy === 0) {
-    ball.dx = ball.speed;
+    //ball.dx = ball.speed;
+    ball.dx = getRandomInt(-2,3)
     ball.dy = ball.speed;
   }
 });
