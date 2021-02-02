@@ -8,9 +8,6 @@
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	
 
-	 <!-- moment library for js link:https://github.com/fingerpich/jalali-moment -->
-	<script defer src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
-	<!-- end of moment -->
 
 	<!--clicky-->
 	<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101295767);</script>
@@ -71,6 +68,9 @@
 		</div>
 		{{ partial "footer" . }}
 	</div>
+ <!-- moment library for js link:https://github.com/fingerpich/jalali-moment -->
+ <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
+ <!-- end of moment -->
 <script async defer src="{{ "js/menu.js" | relURL }}"></script>
 {{ range .Site.Params.customJS -}}
 <script src="{{ . | relURL }}"></script>
