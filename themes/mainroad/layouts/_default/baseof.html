@@ -8,12 +8,6 @@
 	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	
 
-
-	<!--clicky
-	<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101295767);</script>
-	<script async src="//static.getclicky.com/js"></script>
-	end-->
-
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
 	{{- if .Site.Params.opengraph }}
@@ -54,6 +48,10 @@
 	<!-- Pixel Code for https://privateanalytix.com/ -->
 	<script async src="https://privateanalytix.com/pixel/USpHZhQkSFpxPfTk"></script>
 	<!-- END Pixel Code -->
+
+	{{ "<!-- isso -->" | safeHTML }}
+	<script data-isso="https://comments.linuxshahr.ir/" src="https://comments.linuxshahr.ir/js/embed.min.js"></script>
+	{{ "<!-- end isso -->" | safeHTML }}
 </head>
 <body class="body">
 	<div class="container container--outer">
