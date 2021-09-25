@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</title>
+    <title>linux on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</title>
     <link>https://linuxshahr.ir/categories/linux/</link>
-    <description>Recent content in Linux on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</description>
+    <description>Recent content in linux on لینوکس‌شهر-همه چیز درباره نرم‌افزار‌های آزاد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa</language>
-    <lastBuildDate>Thu, 10 Sep 2020 17:48:10 +0430</lastBuildDate><atom:link href="https://linuxshahr.ir/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 22:14:03 +0330</lastBuildDate><atom:link href="https://linuxshahr.ir/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>چرا لینوکس در دسکتاپ موفق نیست؟</title>
+      <link>https://linuxshahr.ir/posts/torvalds_linux_desktop/</link>
+      <pubDate>Sat, 25 Sep 2021 22:14:03 +0330</pubDate>
+      
+      <guid>https://linuxshahr.ir/posts/torvalds_linux_desktop/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34; https://smnk.arvanvod.com/ANPko7k8oL/4z1XEzmONZ/thumbnail.png &#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>بررسی و معرفی مانجارو لینوکس</title>
       <link>https://linuxshahr.ir/posts/manjaro-linux-review/</link>
